@@ -16,7 +16,7 @@
 - `<Ctrl-d>` / `<Ctrl-f>`：往下翻半⻚/一⻚（类似  `PageDown`  键）
 - `{lineno}gg`：跳到第  `lineno`  行
 - `zz` / `zt` / `zb`：光标行设置为 屏幕居中/屏幕第一行/屏幕最后一行
-##  Insert 模式
+###  1.1 Insert 模式
 
 进入 Insert 模式
 Normal 模式下通过特定命令进入 Insert 模式
@@ -30,7 +30,7 @@ Normal 模式下通过特定命令进入 Insert 模式
 - `S`：删除当前行，然后开始输入
 %% Tips：大写字母和小写字母的操作存在关联，可以一起记忆 %%
 
-## Command 模式
+### 1.2 Command 模式
 
 进入 Command 模式
 Normal 模式下输入  `:`  进入 Command 模式
@@ -40,7 +40,8 @@ Normal 模式下输入  `:`  进入 Command 模式
 - `:wq`：保存当前更改，然后退出
 - `:h {command}`：显示关于命令的帮助
 `<Esc>` 回到 Normal 模式
-## Visual 模式
+
+### 1.3 Visual 模式
 
 进入 Visual 模式
 - Normal 模式下按  `v`  进入可视模式
